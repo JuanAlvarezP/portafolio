@@ -2,6 +2,8 @@
 
 Sitio personal de una sola página. HTML, CSS y JavaScript puros, sin dependencias ni build.
 
+**En línea:** <https://juanalvarezp.github.io/portafolio/>
+
 ## Estructura
 
 ```
@@ -34,10 +36,15 @@ python3 -m http.server 8000
 
 Luego abre <http://localhost:8000>.
 
-## Publicarlo gratis
+## Publicar cambios
 
-- **GitHub Pages** — sube la carpeta a un repositorio y activa Pages desde la rama `main`.
-- **Netlify / Vercel** — arrastra la carpeta a su panel; queda publicado en segundos.
+El sitio se sirve con GitHub Pages desde la rama `main`. Cada `push` lo actualiza:
+
+```bash
+git add -A && git commit -m "descripción del cambio" && git push
+```
+
+La nueva versión tarda alrededor de un minuto en aparecer.
 
 ## Qué incluye
 
